@@ -1,0 +1,122 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background: #f2f5f7;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  border: 1px solid #eee;
+}
+
+th {
+  background-color: #f3f6f9;
+  font-weight: 600;
+  color: #444;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.done {
+  background-color: #e6f9ec; /* pastel green */
+}
+
+.no-whatsapp {
+  background-color: #fdecec; /* pastel red */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+}
+
+#status {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+
+#guestTable {
+  overflow-x: auto;
+}
+
+#clearData {
+  background-color: #dc3545;
+}
+
+#clearData:hover {
+  background-color: #c82333;
+}
+
+#footer {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  background-color: #343a40;
+  color: #f8f9fa;
+  font-weight: bold;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  th,
+  td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  #footer {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

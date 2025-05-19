@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Bulk Sender - Egypt Travelist</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>Send Messages to Guests</h1>
+    <input
+      aria-label="excelInput"
+      type="file"
+      id="excelInput"
+      accept=".xlsx, .xls"
+    />
+    <button id="clearData">Clear Saved Data</button>
+    <p id="status"></p>
+    <table id="guestTable"></table>
+    <div id="footer">Created by Mohamed Rabea</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
